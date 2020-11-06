@@ -5,8 +5,10 @@ For my assignment I have decided to go after a procedural space environment in U
 
 ### Inspiration
 
-My first thoughts came when I was looking over procedural oceans ad cities. This lead to me thinking of an open 
-space with random planets of different sized along with stars far off in the distance.
+I first thought of this idea when I was looking over procedural oceans ad cities. This lead to me thinking of an open 
+space with random planets of different sizes, colors and shapes beinging generated in a vast open space. This along with stars far off in the distance really give that space feel. 
+
+Then a lot of ideas started coming to my head like shooting stars and commets. Shooting stars would be far away and show in a flash. Commets can be much bigger and in toughing distance but would have no effect on the user. 
 
 This reminded me of videos like this:
 https://www.youtube.com/watch?v=GoW8Tf7hTGA&ab_channel=morn1415
@@ -35,3 +37,7 @@ Each star would then be a of a random size between two low numbers to keep it re
 ### Music
 For a little background music i was hoping to try do some sort of intersteller type music. Music may really help the user to immerse themself into the world.
 
+### Shooting Star
+For the shooting star there were a number of online ideas for it. All which could generated quite simply where a point in a random area has a flash that moves in a straight line of a distance not to small or too large with the trail of the flash following like below.
+
+https://static.independent.co.uk/s3fs-public/thumbnails/image/2019/07/28/10/istock-543217268.jpg?width=990
