@@ -17,9 +17,11 @@ Just looking through the different features of the planets made me think about g
 
 ### Research
 
-I got inspiration from a number of videos such as:
-https://www.youtube.com/watch?v=GoW8Tf7hTGA&ab_channel=morn1415
+For research my first attmempt thought was look for procedural planets. I found a great video of custom designed planets through shifting noise 
+on the planets surface creating very life-like planets and moons. (https://www.youtube.com/watch?v=GoW8Tf7hTGA&ab_channel=morn1415)
 
-![GitHub Logo](/images/space.jpg)
+The concepts he goes though in unity are also very interesting as well as his approach through creating the planets.
 
-https://sm.mashable.com/t/mashable_in/photo/default/nasa-galaxy_9pu4.960.jpg
+Next I began to think about the stars. My ideal background would be randomly generated stars that you couldnt reach. 
+Each star would then be a of a random size between two low numbers to keep it realistic. Below is an image of my idea for distant stars to look.
+![Space](https://sm.mashable.com/t/mashable_in/photo/default/nasa-galaxy_9pu4.960.jpg)
