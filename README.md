@@ -17,7 +17,7 @@ Just looking through the different features of the planets made me think about g
 
 ### Research
 
-### Planets
+#### Planets
 For research my first attmempt thought was look for procedural planets. I found a great video of custom designed planets through shifting noise 
 on the planets surface creating very life-like planets and moons. (https://www.youtube.com/watch?v=GoW8Tf7hTGA&ab_channel=morn1415)
 The concepts he goes though in unity are also very interesting as well as his approach through creating the planets.
