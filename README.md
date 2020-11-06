@@ -42,4 +42,4 @@ For the shooting star there were a number of online ideas for it. All which coul
 ### Comets
 The first thought in my head was Transformers 1 where the autobots start coming down to earth in giant objects on fire. Sadly, with space being a vacuum there can’t be any fire so I will need to have the comet spiralling to give it that realistic movement rather than just a fixed object moving. Transformers also inspired me to potentially put in 2 or 3 comets in a group all heading the same direction. This would give off as if somewhere a planet has exploded or collided with another and debris from it is flying off. For the comet I will try make them random colours (groups are the same colour) as well as looking quite moon-like as well as not perfectly spherical.
 
-![Comet](https://www.dw.com/en/asteroids-and-comets-how-to-tell-them-apart/a-45658643#)
+![Comet](https://www.futurity.org/wp/wp-content/uploads/2019/12/interstellar-comets_1600.jpg)
