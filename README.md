@@ -8,7 +8,7 @@ For my assignment I have decided to go after a procedural space environment in U
 I first thought of this idea when I was looking over procedural oceans ad cities. This lead to me thinking of an open 
 space with random planets of different sizes, colors and shapes beinging generated in a vast open space. This along with stars far off in the distance really give that space feel. 
 
-Then a lot of ideas started coming to my head like shooting stars and commets. Shooting stars would be far away and show in a flash. Commets can be much bigger and in toughing distance but would have no effect on the user. 
+Then a lot of ideas started coming to my head like shooting stars and comets. Shooting stars would be far away and show in a flash. Comets can be much bigger and in toughing distance but would have no effect on the user. The comets may then come in groups of 2 or 3.
 
 This reminded me of videos like this:
 https://www.youtube.com/watch?v=GoW8Tf7hTGA&ab_channel=morn1415
@@ -42,3 +42,7 @@ For the shooting star there were a number of online ideas for it. All which coul
 
 ![Shooting Star](https://specials-images.forbesimg.com/imageserve/1134640769/960x0.jpg?cropX1=0&cropX2=3999&cropY1=560&cropY2=2436)
 
+### Comets
+The first thought in my head was Transformers 1 where the autobots start coming down to earth in giant objects on fire. Sadly with space being a vacuum there cant be any fire so I will need to have the comet spiraling to give it that realistic movement rather than just a fixed object moving. Transformers also inspired me to potentially put in 2 or 3 comets in a group all heading the same direction. This would give off as if somewhere a planet has exploded or collided with another and debris from it is flying off. For the comet I will try make them random colors (groups are the same color) as well as looking quite moon-like as well as not perfectly spherical.
+
+![Comet](https://www.dw.com/en/asteroids-and-comets-how-to-tell-them-apart/a-45658643#)
