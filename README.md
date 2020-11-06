@@ -20,4 +20,4 @@ Just looking through the different features of the planets made me think about g
 ##I got inspiration from a number of videos such as:
 https://www.youtube.com/watch?v=GoW8Tf7hTGA&ab_channel=morn1415
 and 
-!(/images/space.jpg)
+![GitHub Logo](/images/space.jpg)
