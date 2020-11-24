@@ -17,7 +17,7 @@ public class PlanetEditor : Editor
         DrawSettingsEditor(planet.colourSettings, planet.OnColourSettingsUpdated);
     }
 
-    void DrawSettingsEditor(Object settings, System.Action onSettingsUpdated)
+    void DrawSettingsEditor(Object settings, System.Action onSettingsUpdated, bool foldout)
     {
         using (var check = new EditorGUI.ChangeCheckScope())
         {
@@ -26,7 +26,7 @@ public class PlanetEditor : Editor
             Editor editor = CreateEditor(settings);
             editor.OnInspectorGUI();
 
-            // check for chaneg in
+            // check for change in
             if(check.changed)
             {
                 if (onSettingsUpdated != null)
