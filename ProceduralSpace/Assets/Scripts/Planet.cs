@@ -6,8 +6,8 @@ public class Planet : MonoBehaviour {
 
     [Range(2,256)]
     public int resolution = 10;
+    public bool autoUpdate = true;
 
-    // new ShapeSettings and ColourSettings object
     public ShapeSettings shapeSettings;
     public ColourSettings colourSettings;
 
@@ -22,10 +22,6 @@ public class Planet : MonoBehaviour {
     MeshFilter[] meshFilters;
     Terrain[] terrainFaces;
      
-	private void OnValidate()
-	{
-        GeneratePlanet();
-	}
 
 	void Initialize()
     {
@@ -64,14 +60,20 @@ public class Planet : MonoBehaviour {
 
     public void OnShapeSettingsUpdated()
     {
-        Initialize();
-        GenerateMesh();
+        if (autoUpdate)
+        {
+            Initialize();
+            GenerateMesh();
+        }
     }
 
     public void OnColourSettingsUpdated()
     {
-        Initialize();
-        GenerateColours();
+        if (autoUpdate)
+        {
+            Initialize();
+            GenerateColours();
+        }
     }
 
     void GenerateMesh()
