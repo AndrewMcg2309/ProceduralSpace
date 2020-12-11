@@ -108,6 +108,7 @@ public class FPSController : MonoBehaviour
         {
             Fly(-speed * Time.deltaTime);
         }
+        
 
         mouseX = Input.GetAxis("Mouse X");
         mouseY = Input.GetAxis("Mouse Y");

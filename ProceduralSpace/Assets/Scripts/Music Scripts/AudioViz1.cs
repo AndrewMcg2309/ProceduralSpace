@@ -5,10 +5,13 @@ using UnityEngine;
 public class AudioViz1 : MonoBehaviour {
     public float scale = 10;
     List<GameObject> elements = new List<GameObject>();
-	// Use this for initialization
+
+    //GameObject go = GameObject.Find("My Object");
+    // ShapeSettings shapeSettings = GameObject.GetComponent <ShapeSettings> ();
+
+	// Use this for initialization and for starting the code off 
 	void Start () {
         CreateVisualisers();
-
     }
 
     public float radius = 50;
@@ -39,7 +42,7 @@ public class AudioViz1 : MonoBehaviour {
         {
             Vector3 lscale = elements[i].transform.localScale; 
             lscale.y = Mathf.Lerp(lscale.y, 1 + (Mathf.Abs(AudioAnalyzer.spectrum[i]) * scale), Time.deltaTime * 10);
-            elements[i].transform.localScale = lscale;
+            elements[i].transform.localScale = lscale;        
         }
 	}
 }
