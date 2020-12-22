@@ -6,15 +6,25 @@ public class ItemAreaSpawner : MonoBehaviour
 {
     public GameObject itemToSpread;
 
-    // Start is called before the first frame update
+    public float itemXSpread = 10;
+    public float itemYSpread = 0;
+    public float itemZSpread = 10;
+
+
+
     void Start()
     {
-        
+        SpreadItem();
     }
 
-    // Update is called once per frame
-    void Update()
+
+    void SpreadItem()
     {
-        
+        Vector3 randPosition = new Vector3 (Random.Range(-itemXSpread, itemXSpread), 
+                                            Random.Range(-itemYSpread, itemYSpread), 
+                                            Random.Range(-itemZSpread, itemZSpread));
+
+        GameObject clone = Instantiate(itemToSpread, randPosition, Quaternion.identity);
     }
+
 }
