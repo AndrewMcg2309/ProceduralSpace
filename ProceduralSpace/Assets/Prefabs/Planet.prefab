@@ -326,6 +326,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6775314763502078035}
   - component: {fileID: 6775314763502078034}
+  - component: {fileID: 880576758}
   m_Layer: 0
   m_Name: Planet
   m_TagString: Planet
@@ -365,7 +366,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 196df99d491a00a4097754d254b1767e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  resolution: 92
+  resolution: 101
   autoUpdate: 1
   shapeSettings: {fileID: 11400000, guid: d7394243a8af11d41b6e48d65f9471d9, type: 2}
   colourSettings: {fileID: 11400000, guid: a6dff68fb06fcdb4d8293fa113998d69, type: 2}
@@ -378,6 +379,19 @@ MonoBehaviour:
   - {fileID: 6775314762488429385}
   - {fileID: 6775314762978045324}
   - {fileID: 6775314762834113134}
+--- !u!114 &880576758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6775314763502078037}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a214dcc7a13c632419e912f60f226270, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 2
 --- !u!1 &6775314763804486087
 GameObject:
   m_ObjectHideFlags: 0
