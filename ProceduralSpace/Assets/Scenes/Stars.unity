@@ -428,6 +428,7 @@ MonoBehaviour:
   itemXSpread: 20
   itemYSpread: 20
   itemZSpread: 20
+  scale: 20
 --- !u!1 &771191261 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2896968080688800429, guid: 91ae1a66faaf6344eb12ea4eab12c99e,
@@ -450,7 +451,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1086609328
 MonoBehaviour:
   m_ObjectHideFlags: 0
