@@ -51,6 +51,7 @@ public class Planet : MonoBehaviour {
         }
     }
 
+
     public void GeneratePlanet()
     {
         Initialize();
@@ -91,5 +92,4 @@ public class Planet : MonoBehaviour {
             m.GetComponent<MeshRenderer>().sharedMaterial.color = colourSettings.planetColour;
         }
     }
-
 }

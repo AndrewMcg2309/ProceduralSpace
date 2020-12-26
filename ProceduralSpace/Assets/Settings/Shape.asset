@@ -14,21 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   planetRadius: 50
   noiseLayers:
-  - enabled: 0
+  - enabled: 1
+    useFirstLayerAsMask: 0
     noiseSettings:
-      strength: 0.15
+      strength: 0.1
       numLayers: 4
-      baseRoughness: 1.24
-      roughness: 2.1
-      persistence: 0.55
+      baseRoughness: 1.36
+      roughness: 2.49
+      persistence: 0.54
       centre: {x: 0, y: 0, z: 0}
-      minValue: 1
-  - enabled: 0
+      minValue: 1.03
+  - enabled: 1
+    useFirstLayerAsMask: 0
     noiseSettings:
-      strength: 0
-      numLayers: 0
-      baseRoughness: 0
-      roughness: 0
-      persistence: 0
+      strength: 0.21
+      numLayers: 4
+      baseRoughness: 0.59
+      roughness: 1.86
+      persistence: 0.46
       centre: {x: 0, y: 0, z: 0}
-      minValue: 0
+      minValue: 1.11

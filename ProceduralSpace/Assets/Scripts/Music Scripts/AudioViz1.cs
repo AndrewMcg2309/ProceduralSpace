@@ -6,11 +6,13 @@ public class AudioViz1 : MonoBehaviour {
     public float scale = 10;
     List<GameObject> elements = new List<GameObject>();
 
-    //GameObject go = GameObject.Find("My Object");
+
+    //GameObject go = GameObject.Find("Planet");
     // ShapeSettings shapeSettings = GameObject.GetComponent <ShapeSettings> ();
 
 	// Use this for initialization and for starting the code off 
-	void Start () {
+	void Start () 
+    {
         CreateVisualisers();
     }
 

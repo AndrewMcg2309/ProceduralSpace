@@ -9,9 +9,9 @@ public class AudioViz2 : MonoBehaviour {
 
     public float rotSpeed = 200;
 	// Use this for initialization
-	void Start () {
+	void Start () 
+    {
         CreateVisualisers();
-
     }
 
     public float radius = 50;
@@ -21,32 +21,29 @@ public class AudioViz2 : MonoBehaviour {
         float theta = (Mathf.PI * 2.0f) / (float)AudioAnalyzer.bands.Length;
         for (int i = 0; i < AudioAnalyzer.bands.Length; i++)
         {
-            Vector3 p = new Vector3(
-                Mathf.Sin(theta * i) * radius
-                , 0
-                , Mathf.Cos(theta * i) * radius
-                );
+            Vector3 p = new Vector3(Mathf.Sin(theta * i) * radius, 0, Mathf.Cos(theta * i) * radius);
             p = transform.TransformPoint(p);
             Quaternion q = Quaternion.AngleAxis(theta * i * Mathf.Rad2Deg, Vector3.up);
             q = transform.rotation * q;
 
-            GameObject cube = GameObject.CreatePrimitive(PrimitiveType.Cube);
-            cube.transform.SetPositionAndRotation(p, q);
+            GameObject sphere = GameObject.CreatePrimitive(PrimitiveType.Sphere);
+            sphere.transform.SetPositionAndRotation(p, q);
             startPositions.Add(p);
-            cube.transform.parent = this.transform;
-            cube.GetComponent<Renderer>().material.color = Color.HSVToRGB(
+            sphere.transform.parent = this.transform;
+            sphere.GetComponent<Renderer>().material.color = Color.HSVToRGB(
                 i / (float)AudioAnalyzer.bands.Length
                 , 1
                 , 1
                 );
-            elements.Add(cube);
+            elements.Add(sphere);
         }
     }
 
     // Update is called once per frame
     void Update () {
         transform.Rotate(0, AudioAnalyzer.smoothedAmplitude * Time.deltaTime * rotSpeed, 0);
-        for (int i = 0; i < elements.Count; i++) {
+        for (int i = 0; i < elements.Count; i++) 
+        {
             Vector3 ls = elements[i].transform.localScale;
             ls.y = Mathf.Lerp(ls.y, 1 + (AudioAnalyzer.bands[i] * scale), Time.deltaTime * 3.0f);
             elements[i].transform.localScale = ls;
