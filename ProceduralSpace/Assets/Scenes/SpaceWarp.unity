@@ -307,6 +307,7 @@ GameObject:
   - component: {fileID: 749935536}
   - component: {fileID: 749935535}
   - component: {fileID: 749935534}
+  - component: {fileID: 749935537}
   m_Layer: 0
   m_Name: Particle System
   m_TagString: Untagged
@@ -5050,6 +5051,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 180, y: 0, z: 0}
+--- !u!114 &749935537
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 749935533}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0600b452f3419a4493cf14e2edadb4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bias: 40
+  timeStep: 0.15
+  timeToBeat: 0.05
+  restSmoothTime: 2
+  beatScale: {x: 1, y: 1, z: 1}
+  restScale: {x: 0.01, y: 0.01, z: 0.01}
 --- !u!1 &861152506
 GameObject:
   m_ObjectHideFlags: 0
@@ -10003,7 +10022,7 @@ MonoBehaviour:
   timeStep: 0.15
   timeToBeat: 0.05
   restSmoothTime: 2
-  beatScale: {x: 3, y: 3, z: 3}
+  beatScale: {x: 2, y: 2, z: 2}
   restScale: {x: 1, y: 1, z: 1}
 --- !u!114 &1677808991
 MonoBehaviour:
