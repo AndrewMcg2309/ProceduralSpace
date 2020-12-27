@@ -17,16 +17,18 @@ public class RoundStars : MonoBehaviour {
     }
 
     public float radius = 50;
+    public float distance;
 
     void CreateVisualisers()
     {
-        float theta = (Mathf.PI * 2.0f) / (float) AudioAnalyzer.frameSize;
+        distance = 20f;
+        //float theta = (Mathf.PI * 2.0f) / (float) AudioAnalyzer.frameSize;
         for (int i = 0 ; i < AudioAnalyzer.frameSize ; i ++)
         {
-            Vector3 pos = new Vector3(
-                Mathf.Sin(theta * i) * radius
-                , 0
-                , Mathf.Cos(theta * i) * radius
+            Vector3 pos = new Vector3(distance, distance, distance
+                //Mathf.Sin(theta * i) * radius
+                //, 0
+                //, Mathf.Cos(theta * i) * radius
                 
             );
             GameObject cube = GameObject.CreatePrimitive(PrimitiveType.Cube);
@@ -35,6 +37,8 @@ public class RoundStars : MonoBehaviour {
             cube.GetComponent<Renderer>().material.color = 
                 Color.HSVToRGB(i / (float) AudioAnalyzer.frameSize, 1, 1);
             elements.Add(cube);
+
+            distance += 5;
         }
     }
 
