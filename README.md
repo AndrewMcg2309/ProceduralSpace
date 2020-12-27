@@ -1,3 +1,26 @@
+
+
+
+# ProceduralSpace
+
+Name: Andrew McGowan
+
+Student Number: C16470866
+
+Class Group: TU856, Computer Science
+
+# Description of the project
+
+# Instructions for use
+
+# How it works
+
+# References
+
+# What I am most proud of in the assignment
+
+# Previous Proposal
+
 # ProceduralSpace
 For my assignment I have decided to go after a procedural space environment in Unity. My aim is to create an open environment filled with different types of planets being generated into it. 
 
@@ -43,3 +66,75 @@ For the shooting star there were a number of online ideas for it. All which coul
 The first thought in my head was Transformers 1 where the autobots start coming down to earth in giant objects on fire. Sadly, with space being a vacuum there can’t be any fire so I will need to have the comet spiralling to give it that realistic movement rather than just a fixed object moving. Transformers also inspired me to potentially put in 2 or 3 comets in a group all heading the same direction. This would give off as if somewhere a planet has exploded or collided with another and debris from it is flying off. For the comet I will try make them random colours (groups are the same colour) as well as looking quite moon-like as well as not perfectly spherical.
 
 ![Comet](https://www.futurity.org/wp/wp-content/uploads/2019/12/interstellar-comets_1600.jpg)
+
+_____________________________________________________________________________________
+_____________________________________________________________________________________
+
+## This is how to markdown text:
+
+This is *emphasis*
+
+This is a bulleted list
+
+- Item
+- Item
+
+This is a numbered list
+
+1. Item
+1. Item
+
+This is a [hyperlink](http://bryanduggan.org)
+
+# Headings
+## Headings
+#### Headings
+##### Headings
+
+This is code:
+
+```Java
+public void render()
+{
+	ui.noFill();
+	ui.stroke(255);
+	ui.rect(x, y, width, height);
+	ui.textAlign(PApplet.CENTER, PApplet.CENTER);
+	ui.text(text, x + width * 0.5f, y + height * 0.5f);
+}
+```
+
+So is this without specifying the language:
+
+```
+public void render()
+{
+	ui.noFill();
+	ui.stroke(255);
+	ui.rect(x, y, width, height);
+	ui.textAlign(PApplet.CENTER, PApplet.CENTER);
+	ui.text(text, x + width * 0.5f, y + height * 0.5f);
+}
+```
+
+This is an image using a relative URL:
+
+![An image](images/p8.png)
+
+This is an image using an absolute URL:
+
+![A different image](https://bryanduggandotorg.files.wordpress.com/2019/02/infinite-forms-00045.png?w=595&h=&zoom=2)
+
+This is a youtube video:
+
+[![YouTube](http://img.youtube.com/vi/J2kHSSFA4NU/0.jpg)](https://www.youtube.com/watch?v=J2kHSSFA4NU)
+
+This is a table:
+
+| Heading 1 | Heading 2 |
+|-----------|-----------|
+|Some stuff | Some more stuff in this column |
+|Some stuff | Some more stuff in this column |
+|Some stuff | Some more stuff in this column |
+|Some stuff | Some more stuff in this column |
+
