@@ -6,17 +6,15 @@ public class AudioSyncScale : AudioSyncer {
 
 	private IEnumerator MoveToScale(Vector3 _target)
 	{
-		Vector3 _curr = transform.localScale;
-		Vector3 _initial = _curr;
-		float _timer = 0;
+		Vector3 pos = transform.localScale;
+		Vector3 initital_pos = pos;
+		float time_t = 0;
 
-		while (_curr != _target)
+		while (pos != _target)
 		{
-			_curr = Vector3.Lerp(_initial, _target, _timer / timeToBeat);
-			_timer += Time.deltaTime;
-
-			transform.localScale = _curr;
-
+			pos = Vector3.Lerp(initital_pos, _target, time_t / timeToBeat);
+			time_t += Time.deltaTime;
+			transform.localScale = pos;
 			yield return null;
 		}
 
