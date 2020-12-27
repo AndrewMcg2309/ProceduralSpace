@@ -27,17 +27,17 @@ The light speed effect which is coloured as two different shades of blue was con
 ### Beat System
 The Beat hyperspace system is coloured orange. This piece reacts to the music playing whenever there is a heavy beat. This was done by implementing an audio sync scale script which allows objects to increase and reduce depending on sound. 
 
-![Beat System](images/ParticleBeat.jpg)
+![Beat System](https://github.com/AndrewMcg2309/ProceduralSpace/blob/master/images/ParticleBeat.JPG)
 	
 ### Planets
 Th Planets System allows the visual for passing by planets. A sphere objet was created and the material used for the outside of the sphere was used from the asset store "Star Sparrow Modular Spaceship" [1]. This free asset contained images for the planets. The particle system then generated these planets on a specified time-scale, taking away any chance of overlapping with itself. The size of the planets were randomized in a scale of 2-4. The speed is also randomized from 5-15. These randomized settings stop any patterns and creates a unique experience every time.
 
-![Planets](images/Planets.jpg)
+![Planets](https://github.com/AndrewMcg2309/ProceduralSpace/blob/master/images/Planets.JPG)
 	
 ### Ring
 The ring system is a particle system where I have set the particles to generate at a high scale but do not move from the origin. The particles are generaterated at a high rate. The particles also have a range in the origin which allow the particle strands to appear. This system is also using the beat code which makes it move in response to the music.
 
-![Ring](images/Ring.jpeg)
+![Ring](https://github.com/AndrewMcg2309/ProceduralSpace/blob/master/images/Ring.JPG)
 
 ### Small Particles
 This extra particle system comtains very small white spheres which give the effect that they are falling off the white particle ring. This was an extra effect.
@@ -46,6 +46,8 @@ This extra particle system comtains very small white spheres which give the effe
 ## Canvas
 ### Glowing Image
 This glowing sphere was created and added to a canvas. The glowing sphere reacts to the music as well as gives a nice hyperspace visual at the enter. 
+
+![Glowing Image](https://github.com/AndrewMcg2309/ProceduralSpace/blob/master/images/Canvas.JPG)
 
 ## Trail Renderers
 ### Shooting stars
