@@ -10,7 +10,7 @@ Class Group: TU856, Computer Science
 
 This Unity Application represents going through hyperspace passing planets but also with audio visuals. Its uses particle systems, audio synhronizers, canvases and background rendering images to provide a hyperspace visual with music. 
 
-The initial plan was to create a procedural space environment but as we learned about audio visualizers after, I was compelled to change it up. 
+The initial plan was to create a procedural space environment but with all my effort it wasnt working out and we learned about audio visualizers afterso I was compelled to change it up. 
 
 ![Full System](https://github.com/AndrewMcg2309/ProceduralSpace/blob/master/images/Full.JPG)
 
@@ -54,15 +54,19 @@ This glowing sphere was created and added to a canvas. The glowing sphere reacts
 
 ## Audio Response
 ### Code 
+[3]
 
 
 # References
 ## Asset Store
-Real Stars Skybox
-For background image of stars 
+[1]
+https://assetstore.unity.com/packages/3d/environments/sci-fi/real-stars-skybox-lite-116333 
 
-Star Sparrow Modular Spaceship
-For the planet images
+[2]
+https://assetstore.unity.com/packages/3d/vehicles/space/star-sparrow-modular-spaceship-73167
+
+[3]
+https://github.com/coderDarren/RenaissanceCoders_UnityScripting
  
 
 # What I am most proud of in the assignment
@@ -70,6 +74,7 @@ For the planet images
 I am most proud of my use of Particle Systems. I found myself really enjoying the different ways you can use them. At first they created the foundations for the application but as I used them more and more I realised how many different was I could use them. They were perfect for the theme of my project which is space. 
 
 While using them I found myself getting more and more immersed using them because I kept getting more ideas on how I could implement them. Because of this I am most proud of my Particle Systems.
+
 
 ______________________________________________________________________________________________________________
 
