@@ -8,7 +8,7 @@ Class Group: TU856, Computer Science
 
 # Description of the project
 
-This Unity Application represents going through hyperspace passing planets but also with audio visuals. Its uses particle systems, trail renderers, audio synhronizers, canvases and background rendering images to provide a hyperspace visual with music. For this assignment I really went after using Unitys implemented features such as particle systems and trail renderers.
+This Unity Application represents going through hyperspace passing planets but also with audio visuals. Its uses particle systems, audio synhronizers, canvases and background rendering images to provide a hyperspace visual with music. 
 
 The initial plan was to create a procedural space environment but as we learned about audio visualizers after, I was compelled to change it up. 
 
@@ -51,17 +51,12 @@ This glowing sphere was created and added to a canvas. The glowing sphere reacts
 
 ![Glowing Image](https://github.com/AndrewMcg2309/ProceduralSpace/blob/master/images/Canvas.JPG)
 
-## Trail Renderers
-### Shooting stars
 
 ## Audio Response
 ### Code 
 
+
 # References
-
-## Online
-People who made the audio sync
-
 ## Asset Store
 Real Stars Skybox
 For background image of stars 
