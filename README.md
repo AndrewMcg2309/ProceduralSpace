@@ -37,7 +37,7 @@ Th Planets System allows the visual for passing by planets. A sphere objet was c
 ### Ring
 The ring system is a particle system where I have set the particles to generate at a high scale but do not move from the origin. The particles are generaterated at a high rate. The particles also have a range in the origin which allow the particle strands to appear. This system is also using the beat code which makes it move in response to the music.
 
-![Ring](images/Ring.jpg)
+![Ring](images/Ring.jpeg)
 
 ### Small Particles
 This extra particle system comtains very small white spheres which give the effect that they are falling off the white particle ring. This was an extra effect.
