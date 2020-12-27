@@ -11,8 +11,9 @@ Class Group: TU856, Computer Science
 
 # Description of the project
 
-This Unity Application represents going through hyperspace passing planets but also with audio visuals. 
+This Unity Application represents going through hyperspace passing planets but also with audio visuals. Its uses particle systems, trail renderers, audio synhronizers, canvases and background rendering images to provide a hyperspace visual with music. For this assignment I really went after using Unitys implemented features such as particle systems and trail renderers.
 
+The initial plan was to create a procedural space environment but as we learned about audio visualizers after, I was compelled to change it up. 
 
 # Instructions for use
 
@@ -20,26 +21,49 @@ The only instruction is to press play. There are no controls for this applicatio
 
 # How it works
 
-Particle system
-- Beat system
-- particle system to represent light speed
-- Three planets 
-- Ring
-- Dots
+## Particle Systems
+### Light Speed
+The light speed effect which is coloured as two different shades of blue was contructed from a particle system. The length of the particles were increadsed to create a more lightspeed effect. The start time was also increased to make the particles move faster. These two combined created a hyperspace visual.
 
-Canvas
-- Image for glowing dot in the middle
+<image>
+	
+### Beat System
+The Beat hyperspace system is coloured orange. This piece reacts to the music playing whenever there is a heavy beat. This was done by implementing an audio sync scale script which allows objects to increase and reduce depending on sound. 
 
-Trail Renderers
-- Shooting stars
+<image>
+	
+### Planets
+Th Planets System allows the visual for passing by planets. A sphere objet was created and the material used for the outside of the sphere was used from the asset store "Star Sparrow Modular Spaceship" [1]. This free asset contained images for the planets. The particle system then generated these planets on a specified time-scale, taking away any chance of overlapping with itself. The size of the planets were randomized in a scale of 2-4. The speed is also randomized from 5-15. These randomized settings stop any patterns and creates a unique experience every time.
 
-Implemented audio response 
+<images>
+### Ring
+### Small Particles
+
+## Canvas
+### Glowing Image
+
+## Trail Renderers
+### Shooting stars
+
+## Audio Response
+### Code 
 
 # References
 
+## Online
+People who made the audio sync
+
+## Asset Store
+Real Stars Skybox
+For background image of stars 
+
+Star Sparrow Modular Spaceship
+For the planet images
+ 
+
 # What I am most proud of in the assignment
 
-I am most proud of my use of Particle Systems. 
+I am most proud of my use of Particle Systems. I found myself really enjoying the different ways you can use them. 
 
 # Previous Proposal
 
