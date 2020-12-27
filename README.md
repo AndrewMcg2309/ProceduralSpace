@@ -12,6 +12,8 @@ This Unity Application represents going through hyperspace passing planets but a
 
 The initial plan was to create a procedural space environment but as we learned about audio visualizers after, I was compelled to change it up. 
 
+![Full System](https://github.com/AndrewMcg2309/ProceduralSpace/blob/master/images/Full.JPG)
+
 # Instructions for use
 
 The only instruction is to press play. There are no controls for this application.
