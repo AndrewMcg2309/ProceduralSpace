@@ -11,13 +11,35 @@ Class Group: TU856, Computer Science
 
 # Description of the project
 
+This Unity Application represents going through hyperspace passing planets but also with audio visuals. 
+
+
 # Instructions for use
 
+The only instruction is to press play. There are no controls for this application.
+
 # How it works
+
+Particle system
+- Beat system
+- particle system to represent light speed
+- Three planets 
+- Ring
+- Dots
+
+Canvas
+- Image for glowing dot in the middle
+
+Trail Renderers
+- Shooting stars
+
+Implemented audio response 
 
 # References
 
 # What I am most proud of in the assignment
+
+I am most proud of my use of Particle Systems. 
 
 # Previous Proposal
 
