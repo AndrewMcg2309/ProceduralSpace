@@ -1,6 +1,3 @@
-
-
-
 # ProceduralSpace
 
 Name: Andrew McGowan
@@ -35,12 +32,21 @@ The Beat hyperspace system is coloured orange. This piece reacts to the music pl
 ### Planets
 Th Planets System allows the visual for passing by planets. A sphere objet was created and the material used for the outside of the sphere was used from the asset store "Star Sparrow Modular Spaceship" [1]. This free asset contained images for the planets. The particle system then generated these planets on a specified time-scale, taking away any chance of overlapping with itself. The size of the planets were randomized in a scale of 2-4. The speed is also randomized from 5-15. These randomized settings stop any patterns and creates a unique experience every time.
 
-<images>
+<images>#
+	
 ### Ring
+The ring system is a particle system where I have set the particles to generate at a high scale but do not move from the origin. The particles are generaterated at a high rate. The particles also have a range in the origin which allow the particle strands to appear. This system is also using the beat code which makes it move in response to the music.
+
+<image>
+
 ### Small Particles
+This extra particle system comtains very small white spheres which give the effect that they are falling off the white particle ring. This was an extra effect.
+
+<image>
 
 ## Canvas
 ### Glowing Image
+This glowing sphere was created and added to a canvas. The glowing sphere reacts to the music as well as gives a nice hyperspace visual at the enter. 
 
 ## Trail Renderers
 ### Shooting stars
@@ -63,7 +69,9 @@ For the planet images
 
 # What I am most proud of in the assignment
 
-I am most proud of my use of Particle Systems. I found myself really enjoying the different ways you can use them. 
+I am most proud of my use of Particle Systems. I found myself really enjoying the different ways you can use them. At first they created the foundations for the application but as I used them more and more I realised how many different was I could use them. They were perfect for the theme of my project which is space. 
+
+While using them I found myself getting more and more immersed using them because I kept getting more ideas on how I could implement them. Because of this I am most proud of my Particle Systems.
 
 # Previous Proposal
 
