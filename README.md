@@ -8,7 +8,7 @@ Class Group: TU856, Computer Science
 
 # Description of the project
 
-This Unity Application represents going through hyperspace passing planets but also with audio visuals. Its uses particle systems, audio synhronizers, canvases and background rendering images to provide a hyperspace visual with music. 
+This Unity Application represents going through hyperspace passing planets but also with audio visuals. Its uses particle systems, audio synhronizers, canvases and background rendering image [1] to provide a hyperspace visual with music. 
 
 The initial plan was to create a procedural space environment but with all my effort it wasnt working out and we learned about audio visualizers afterso I was compelled to change it up. 
 
@@ -32,7 +32,7 @@ The Beat hyperspace system is coloured orange. This piece reacts to the music pl
 ![Beat System](https://github.com/AndrewMcg2309/ProceduralSpace/blob/master/images/ParticleBeat.JPG)
 	
 ### Planets
-Th Planets System allows the visual for passing by planets. A sphere objet was created and the material used for the outside of the sphere was used from the asset store "Star Sparrow Modular Spaceship" [1]. This free asset contained images for the planets. The particle system then generated these planets on a specified time-scale, taking away any chance of overlapping with itself. The size of the planets were randomized in a scale of 2-4. The speed is also randomized from 5-15. These randomized settings stop any patterns and creates a unique experience every time.
+Th Planets System allows the visual for passing by planets. A sphere objet was created and the material used for the outside of the sphere was used from the asset store "Star Sparrow Modular Spaceship" [2]. This free asset contained images for the planets. The particle system then generated these planets on a specified time-scale, taking away any chance of overlapping with itself. The size of the planets were randomized in a scale of 2-4. The speed is also randomized from 5-15. These randomized settings stop any patterns and creates a unique experience every time.
 
 ![Planets](https://github.com/AndrewMcg2309/ProceduralSpace/blob/master/images/Planets.JPG)
 	
@@ -54,11 +54,19 @@ This glowing sphere was created and added to a canvas. The glowing sphere reacts
 
 ## Audio Response
 ### Code 
+
 [3]
+For allowing music to effect the objects in the application an audio sync was needed. Below is a snippet from AudiSyncScale where the object is lerped in sync with the beat of the music. The lerp allows for a smooth transition of the object to give it a fluid visualization.
+![AudiSyncScale](https://github.com/AndrewMcg2309/ProceduralSpace/blob/master/images/Code1.JPG)
+
+Here is another snippet from AudiSyncScale where the the update changes the objects size as the music plays.
+![AudiSyncScale](https://github.com/AndrewMcg2309/ProceduralSpace/blob/master/images/Code2.JPG)
+
+Below is a piece of the AudioSpectrum class. This class is the listener for music. This script is placed in the AudioAnalyzer object in unity where the song is placed. This script listens to the music and takes the values from it.
+![AudioSpectrum](https://github.com/AndrewMcg2309/ProceduralSpace/blob/master/images/Code3.JPG)
 
 
 # References
-## Asset Store
 [1]
 https://assetstore.unity.com/packages/3d/environments/sci-fi/real-stars-skybox-lite-116333 
 
