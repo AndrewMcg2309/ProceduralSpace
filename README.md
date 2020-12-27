@@ -22,7 +22,7 @@ The only instruction is to press play. There are no controls for this applicatio
 ### Light Speed
 The light speed effect which is coloured as two different shades of blue was contructed from a particle system. The length of the particles were increadsed to create a more lightspeed effect. The start time was also increased to make the particles move faster. These two combined created a hyperspace visual.
 
-![Particle System](images/ParticleSystem.jpg)
+![Particle System](./images/ParticleSystem.jpg)
 	
 ### Beat System
 The Beat hyperspace system is coloured orange. This piece reacts to the music playing whenever there is a heavy beat. This was done by implementing an audio sync scale script which allows objects to increase and reduce depending on sound. 
